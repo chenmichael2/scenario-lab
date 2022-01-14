@@ -10,6 +10,41 @@
 # MICHAEL : And Filter to display specific data by a type you need so filter(food) and getting back Pancakes, Burgers and not getting drinks bacK?
 # '''
 
+foods = [
+    {
+        "category": 'breakfast',
+        "name": "pancakes", 
+    },
+    {
+        "category": "breakfast", 
+        "name": "bacon"
+    },
+    {
+        "category": "lunch",
+        "name": "sandwich"
+    }, 
+    {
+        "category": "dinner",
+        "name": "steak"
+    }, 
+    {
+        "category": "lunch",
+        "name": "chicken bake"
+    },
+    {
+        "category": "lunch", 
+        "name": "burger"
+    }
+]
+
+lunches = filter(lambda food: food.get('category') == 'lunch', foods)
+lunch = list(lunches)
+# print(lunch)
+food = map(lambda x: x.get('name'), lunch)
+print('lunch foods', list(food))
+
+#hoping this works
+
 # '''
 # NEO : map - determine the total for items in a store after taxes/discounts
 
