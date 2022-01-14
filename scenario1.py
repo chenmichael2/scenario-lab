@@ -27,10 +27,14 @@ food = filter
 # MICHAEL:filter - get a list of items that are listed at a high discount right now
 # '''
 
+
+
 # '''
 # MICHAEL: inflation on products increase to 7% for map, 
+
 # NEO: filter is to take out the things i want in a list
 # '''
+
 
 # '''
 # MICHAEL: use map to get a total value in a cart
