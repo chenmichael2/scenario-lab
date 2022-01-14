@@ -98,10 +98,14 @@ def discounted_item_list(arr):
 
 discounted_item_list(discount)
 
+
+
 # '''
 # MICHAEL: inflation on products increase to 7% for map, 
+
 # NEO: filter is to take out the things i want in a list
 # '''
+
 
 # '''
 # MICHAEL: use map to get a total value in a cart
