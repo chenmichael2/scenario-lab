@@ -49,7 +49,7 @@ lunch = list(lunches)
 food = map(lambda x: x.get('name'), lunch)
 print('lunch foods', list(food))
 
-
+#hoping this works
 
 # '''
 # NEO : map - determine the total for items in a store after taxes/discounts
