@@ -97,3 +97,30 @@ discounted_item_list(discount)
 
 # '''
 # MICHAEL: inflation on products increase to 7% for map, 
+def inflation_increase(item_arr):
+    inflation = map(lambda i: i.get('price') * 1.07, item_arr)
+    # print('discounted', list(inflation))
+    return list(inflation)
+
+cart = inflation_increase(discount)
+print('reciept', cart)
+
+# NEO: filter is to take out the things i want in a list
+# '''
+
+
+# '''
+# MICHAEL: use map to get a total value in a cart
+def total(c):
+    num = 0
+    for i in range(len(c)):
+        num += c[i]
+        # print(c[i])
+    return num
+
+print('total before discounts', total(cart))
+
+
+# NEO: use filter to sort a list by any value
+# '''
+
